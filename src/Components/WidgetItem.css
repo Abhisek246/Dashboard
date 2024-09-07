@@ -1,0 +1,51 @@
+.widgetDisplay, .newDisplay{
+    width: 415px;
+    height: 220px;
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+.widgetDisplay{
+    background-color: #fff;
+}
+
+.newDisplay{
+    background-color: #DAD9D9;
+}
+
+.add{
+    position: absolute;
+    top: 5.5rem;
+    left: 9rem;
+}
+
+.widgetDisplay h4, .newDisplay h4{
+    font-size: medium;
+    font-weight: 600;
+}
+
+
+.addWidgetForm{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    top: 1.5rem;
+}
+
+.addWidgetForm input, textarea{
+    width: 22rem;
+    outline: none;
+    border: 1px solid #E2E0E0;
+    border-radius: 5px;
+    font-size: small;
+    padding: 0.2rem;
+}
+
+.addWidget{
+    position: relative;
+    width: 7rem;
+    font-size: small;
+}
+

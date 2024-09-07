@@ -1,0 +1,15 @@
+.header{
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-name{
+    font-weight: 700;
+    font-size: larger;
+}
+
+.header button{
+    margin-left: 0.6rem;
+}
+

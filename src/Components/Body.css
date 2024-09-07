@@ -1,0 +1,25 @@
+.body{
+    background-color: #E2E0E0;
+    padding: 0 2rem;
+    height: 100vh;
+    overflow: auto;
+}
+
+.addBg{
+    background-color: #CECECE;
+    padding: 0 2rem;
+    height: 100vh;
+    overflow: auto;
+}
+
+.body h3, .addBg  h3{
+    font-size: large;
+    font-weight: 600;
+}
+
+.widget{
+    width: 100vw;
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
